@@ -1,0 +1,141 @@
+.logo{
+    width:  20%;
+    position:  absolute;
+    top: 2%;
+    left: 2%;
+    background-color: transparent;
+  }
+  
+  
+  
+  .title {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:50px;
+    font-stretch: expanded;
+    text-align: center;
+    color: aqua;
+    color: #fff;
+    text-shadow:
+      0 0 5px #0ff;
+    /* color: transparent; */
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 400%;    
+
+  }
+  
+  @keyframes move {
+      0%,100%{
+          background-position: 200% 0%;
+      }
+  
+      50%{
+          background-position: 0% 200%;
+      }
+  }
+  
+  
+  .clsFirstIMg{
+    width:  80%;
+    position:  absolute;
+    top: 220;
+    left: 100;
+    background-color: transparent;
+  }
+  
+  
+  .glow {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    font-size: 70px;
+    color: #fff;
+    text-align: center;
+    /* -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate; */
+  }
+  
+  /* @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  } */
+  
+  .subtitle {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:40px;
+    margin-top: 5px;
+    font-stretch: expanded;
+    text-align: center;
+    color: aqua;
+    color: #fff;
+    text-shadow:
+      0 0 5px #0ff;
+    /* color: transparent; */
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 20%;
+  }
+  
+  
+  /* .subtitle1 {
+    color: #eee;
+    font-family: "Courier New";
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 30px;
+    top: 45%;
+    right:400;
+    position: absolute;
+    
+  
+  }
+  
+  .subtitle2 {
+    color: #eee;
+    font-family: "Courier New";
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 30px;
+    top: 49%;
+    right:200;
+    position: absolute;
+    
+  
+  }
+  
+  .subtitle3 {
+    color: #eee;
+    font-family: "Courier New";
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 30px;
+    top: 55%;
+    right:200;
+    position: absolute;
+    
+  
+  }
+  
+  .subtitle4 {
+    color: #eee;
+    font-family: "Courier New";
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 30px;
+    top: 60%;
+    right:170;
+    position: absolute;
+    
+  
+  } */

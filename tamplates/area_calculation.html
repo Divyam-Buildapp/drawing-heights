@@ -1,0 +1,42 @@
+
+<html>  
+
+<head>
+  <link rel="stylesheet" href="static/area_calculation.css">
+</head>
+
+
+<style>
+body {
+  background-image: url('static/images/wall.webp');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style> 
+
+
+<div> 
+    <a href="https://nohara-inc.co.jp/en/">
+    <img src="static/images/nohara_logo.png", class= 'logo'> 
+    </a>
+</div> 
+
+<div class="title">Area Calculation</div> 
+
+<label class="subtitle" for="choose_cluster">For selected color</label><br>
+
+<div> 
+    <img src="{{ image_fig }}", class= 'clsFirstImg'></div> 
+
+<label class="glow" for="choose_cluster">Area of the wall: {{Total_wall_area}} m²</label>
+
+<!-- add "{{Total_wall_area}}" in front of m^2 -->
+
+<!-- 
+<div class="subtitle1">Wall area ratio (From Image) = </div>
+<div class="subtitle2">white pixel area / total pixel area</div>
+<div class="subtitle3">Total area (From segment) = x_range * y_range</div>
+<div class="subtitle4">Area of the wall = Wall area ratio * Total area</div> -->
+ 
+</html> 

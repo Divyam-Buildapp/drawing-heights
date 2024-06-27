@@ -1,0 +1,15 @@
+flask
+pandas
+numpy
+matplotlib
+sklearn
+scipy
+extcolors
+# colorsys
+colormap
+scikit-image
+opencv-python-headless
+easydev
+tornado
+# opencv-contrib-python
+# PIL
