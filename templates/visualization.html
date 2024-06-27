@@ -1,0 +1,58 @@
+<html>  
+
+<head>
+  <link rel="stylesheet" href="static/visualization.css">
+</head>
+
+<style>
+body {
+  background-image: url('static/images/wall.webp');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style> 
+
+<div> 
+  <a href="https://nohara-inc.co.jp/en/">
+  <img src="static/images/nohara_logo.png", class= 'logo'> 
+  </a>
+</div> 
+
+<div class="title"><br>Visualization of input image and segmentation</div> 
+
+<div> 
+    <img src="{{ image_fig }}", class= 'clsFirstImg'></div> 
+
+<div class="title1">Dimension Inputs</div>
+<div class="subtitle1">Input: height x width (in m)</div>
+
+<form action="/segmentation" method="post">
+
+
+   <label class="subtitle" for="total_height"><br>Total height of the image:</label><br>
+   <input name="total_height" type="number" class="feedback-input" placeholder="" required="required" step='any'/><br>
+
+
+   <label class="subtitle" for="total_length">Total length of the image:</label><br>
+   <input name="total_length" type="number" class="feedback-input" placeholder="" required="required" step='any'/><br>
+
+   <input type="submit" value="SUBMIT">
+
+</form> 
+
+
+<div class="info1">
+    <img src="static/images/info.jpg" width="40" 
+     height="30"> 
+  <span class="info1_sub">Enter the max vertical height of the image (in meters)</span>
+</div>
+
+<div class="info2">
+    <img src="static/images/info.jpg" width="40" 
+     height="30"> 
+  <span class="info2_sub">Enter the max. horizontal width of the image (in meters)</span>
+</div>
+
+ 
+</html> 
