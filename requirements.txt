@@ -13,3 +13,4 @@ easydev
 tornado
 # opencv-contrib-python
 # PIL
+skimage
